@@ -85,41 +85,41 @@ body {
 }
 
 /*Nav section*/
-nav{
+nav {
     width: 100%;
     background-color: white;
+    padding: 2% 0;
 }
 
 .nav-container {
     display: flex;
-    flex-direction: column; /*make imgs and name are diff row (items are displayed vertically)*/
+    justify-content: center;
+    gap: 10%; /* Adjusts the space between each folder-text pair */
+    flex-wrap: wrap; 
+}
+
+.nav-boxs {
+    display: flex;
+    flex-direction: column; /* Stack image and text vertically */
     align-items: center; 
+    text-align: center;
 }
 
-.nav-folders {
-    display: flex;  
-    justify-content: center; 
-    gap: 5.2%; 
-}
-
-.nav-folders img{
-    width: 8%;
+.nav-boxs img {
+    width: 100px; /*img's size*/
     height: auto;
-    padding: 2%;
+    margin-bottom: 5px; /* Creates space between image and text */
 }
 
-.name-folders {
-    width: 100%;
-    height: auto;
-    display: flex;  
-    justify-content: center; 
-    gap: 8.5%;
-}
-
-.name-folders a{
-    color: black;
+.nav-boxs a {
     text-decoration: none;
+    color: black;
+    font-family: "Libre Caslon Text", serif;
+    font-size: 2vh;
+    font-weight: lighter;
+    font-style: italic;
 }
+
 
 
 @media (max-width: 768px) {
