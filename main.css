@@ -89,12 +89,13 @@ nav {
     width: 100%;
     background-color: white;
     padding: 2% 0;
+    margin-bottom: 2%;
 }
 
 .nav-container {
     display: flex;
     justify-content: center;
-    gap: 10%; /* Adjusts the space between each folder-text pair */
+    gap: 10%; 
     flex-wrap: wrap; 
 }
 
@@ -108,7 +109,7 @@ nav {
 .nav-boxs img {
     width: 100px; /*img's size*/
     height: auto;
-    margin-bottom: 5px; /* Creates space between image and text */
+    margin-bottom: 2%; 
 }
 
 .nav-boxs a {
@@ -120,6 +121,35 @@ nav {
     font-style: italic;
 }
 
+/*AboutMe section*/
+
+.aboutme{
+    background-color: black;
+}
+
+.aboutme-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+    gap: 5%;
+}
+
+.aboutme-image-profile img{
+    width: 110%;
+}
+
+.aboutme-description{
+    width: 70%;
+}
+
+.aboutme-details{
+    color: white;
+}
+
+.aboutme-educational{
+    color: white;
+}
 
 
 @media (max-width: 768px) {
