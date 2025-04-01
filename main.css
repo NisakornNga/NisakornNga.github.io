@@ -135,6 +135,10 @@ nav {
     gap: 5%;
 }
 
+.aboutme-image-profile{
+    width: 100%;
+}
+
 .aboutme-image-profile img{
     width: 110%;
 }
@@ -145,6 +149,13 @@ nav {
 
 .aboutme-details{
     color: white;
+}
+
+.title-texts{
+    font-family: "Italianno", serif;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 10vh;
 }
 
 .aboutme-educational{
