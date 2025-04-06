@@ -205,7 +205,7 @@ nav {
 
 /*Skills section*/
 .skills {
-    background-color: #f4f4f4;
+    background-color: white;
     padding: 5%;
 }
 
@@ -233,8 +233,25 @@ nav {
     font-family: "Italianno", serif;
     font-style: italic;
     font-weight: lighter;
-    font-size: 5vh;
+    font-size: 6vh;
     text-align: center;
+}
+
+.category-section{
+    padding: 2% 10% ;
+}
+
+.category-subsection{
+    margin-left: 8%;
+    font-family: "Albert Sans", sans-serif;
+    font-size: 3vh;
+}
+
+li{
+    font-family: "Albert Sans", sans-serif;
+    font-weight: 400;
+    font-size: 2.5vh;
+    margin-left: 5%;
 }
 
 
