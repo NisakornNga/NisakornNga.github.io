@@ -255,6 +255,19 @@ li{
 }
 
 
+/*Experiece section*/
+.experience-1 img{
+    width: 50%;
+}
+
+.experience-2 img{
+    width: 50%;
+}
+
+.experience-3 img{
+    width: 50%;
+}
+
 
 @media (max-width: 768px) {
     .welcome-text1 {
