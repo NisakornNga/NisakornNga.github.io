@@ -337,6 +337,51 @@ li{
     color: white;
 }
 
+/* Overlay section */
+.experience-detail-overlay1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(10, 10, 10, 0.9);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    padding: 24px;
+    color: white;
+}
+
+.experience-detail-overlay1 .experience-detail-content {
+    max-width: 500px;
+    text-align: center;
+    color: white;
+    
+}
+
+/* ปุ่ม hover ที่ experience-1 จะโชว์ overlay */
+.experience-1:hover ~ .experience-detail-overlay1 {
+    display: flex;
+}
+  
+  /* ซ่อน experience-2 และ experience-3 */
+.experience-1:hover ~ .experience-2,
+.experience-1:hover ~ .experience-3 {
+    display: none;
+}
+  
+  /* pop up กล่องของ experience-1 */
+.experience-1:hover {
+    transform: scale(1.05);
+    z-index: 11;
+}
+  
+.experience-1:hover .message-item,
+.experience-1:hover .description-box {
+    transform: translateY(-5px);
+}
+
 @media (max-width: 768px) {
     .welcome-text1 {
         font-size: 36px;
