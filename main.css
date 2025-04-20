@@ -256,17 +256,65 @@ li{
 
 
 /*Experiece section*/
-.experience-1 img{
-    width: 50%;
+.experiences{
+    background-color: black;
+    padding: 3%;
 }
 
-.experience-2 img{
-    width: 50%;
+.experiences .title-text{
+    font-family: "Libre Caslon Text", serif;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 6vh;
+    color: white;
+    margin-inline-start: 7%;
 }
 
-.experience-3 img{
-    width: 50%;
+.experiences-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    margin-inline-start: 7%;
 }
+
+
+.experiences-container img{
+    width: 395.62px;
+    height: 488px;
+    border-radius: 20px;
+    margin-top: 5%;
+    
+}
+
+.experience-1{
+    display: block;
+    align-items: center;
+
+}
+
+.page-5-decription-boxs{
+    background-color: #D9D9D9;
+    height: 80px;
+    width: 320px;
+    border-radius: 20px;
+    padding: 5% 5%;
+}
+
+.page-5-decription-boxs .experience-name{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 600;
+    font-size: 2vh;
+}
+
+.page-5-decription-boxs .experience-location{
+    font-family: "Albert Sans", sans-serif;
+    font-weight: 400;
+    font-size: 2vh;
+    color: #666666;
+    padding-top: 1%;
+}
+
+
 
 
 @media (max-width: 768px) {
