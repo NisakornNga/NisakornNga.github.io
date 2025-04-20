@@ -293,6 +293,9 @@ li{
 }
 
 .page-5-decription-boxs{
+    position: relative; /* adjust postion */
+    margin: 0 auto; /* center horizontally */
+    top: -30px; /* overlap images */
     background-color: #D9D9D9;
     height: 80px;
     width: 320px;
@@ -314,8 +317,25 @@ li{
     padding-top: 1%;
 }
 
+.message-item {
+    position: absolute; /* Top layers */
+    background-color: #007aff;
+    padding: 10px 18px;
+    border-radius: 20px;
+    margin: 8px 0;
+    max-width: 280px;
+    font-size: 14px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
 
-
+.message-date {
+    display: block; 
+    margin-top: 1%;
+    font-family: "Libre Baskerville", serif;
+    font-size: 2.3vh;
+    opacity: 1;
+    color: white;
+}
 
 @media (max-width: 768px) {
     .welcome-text1 {
