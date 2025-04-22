@@ -259,6 +259,7 @@ li{
 .experiences{
     background-color: black;
     padding: 3%;
+    height: 100%;
 }
 
 .experiences .title-text{
@@ -297,10 +298,11 @@ li{
     margin: 0 auto; /* center horizontally */
     top: -30px; /* overlap images */
     background-color: #D9D9D9;
-    height: 80px;
+    max-height: 60px; /*not hover*/
     width: 320px;
     border-radius: 20px;
-    padding: 5% 5%;
+    padding: 7% 6%;
+    transition: max-height 0.4s ease;
 }
 
 .page-5-decription-boxs .experience-name{
@@ -311,10 +313,28 @@ li{
 
 .page-5-decription-boxs .experience-location{
     font-family: "Albert Sans", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 2vh;
-    color: #666666;
+    color: #3172FF;
     padding-top: 1%;
+}
+
+.experience-description{
+    font-family: "Albert Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1.8vh;
+    margin-top: 2%;
+    color: #313131;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+a:hover{
+    color: #3172FF;
 }
 
 .message-item {
@@ -378,6 +398,33 @@ li{
 .experience-2:hover .description-box,
 .experience-3:hover .description-box {
     transform: translateY(-5px);
+}
+
+/* Default state: hide hr and description */
+.experience-description,
+.page-5-decription-boxs hr {
+    opacity: 0;
+    transform: translateY(20px); /*trasition from below*/
+    transition: all 0.4s ease-in-out;
+}
+
+/* When hovering over the whole card */
+.experience-1:hover .page-5-decription-boxs hr,
+.experience-2:hover .page-5-decription-boxs hr,
+.experience-3:hover .page-5-decription-boxs hr,
+.experience-1:hover .experience-description,
+.experience-2:hover .experience-description,
+.experience-3:hover .experience-description {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* height of boxs */
+.experience-1:hover .page-5-decription-boxs,
+.experience-2:hover .page-5-decription-boxs,
+.experience-3:hover .page-5-decription-boxs {
+    max-height: 300px;
+    transition: max-height 0.4s ease-in-out;
 }
 
 @media (max-width: 768px) {
