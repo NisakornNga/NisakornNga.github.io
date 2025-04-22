@@ -313,7 +313,7 @@ li{
 
 .page-5-decription-boxs .experience-location{
     font-family: "Albert Sans", sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 2vh;
     color: #3172FF;
     padding-top: 1%;
@@ -331,6 +331,7 @@ a{
     text-decoration: none;
     color: black;
     font-weight: bolder;
+    font-size: 1.8vh;
 }
 
 a:hover{
