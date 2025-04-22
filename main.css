@@ -340,48 +340,43 @@ li{
     text-align: center;
 }
 
-/* Overlay section */
-.experience-detail-overlay1 {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(10, 10, 10, 0.9);
-    display: none;
-    justify-content: center;
-    align-items: center;
-    z-index: 10;
-    padding: 24px;
-    color: white;
+/* Experiences - time transition */
+
+.experience-1,
+.experience-2,
+.experience-3,
+.experience-1 .message-item,
+.experience-2 .message-item,
+.experience-3 .message-item,
+.experience-1 .description-box,
+.experience-2 .description-box,
+.experience-3 .description-box {
+    transition: all 0.5s ease;
 }
 
-.experience-detail-overlay1 .experience-detail-content {
-    max-width: 500px;
-    text-align: center;
-    color: white;
-    
-}
-
-/* ปุ่ม hover ที่ experience-1 จะโชว์ overlay */
-.experience-1:hover ~ .experience-detail-overlay1 {
-    display: flex;
-}
-  
-  /* ซ่อน experience-2 และ experience-3 */
-.experience-1:hover ~ .experience-2,
-.experience-1:hover ~ .experience-3 {
-    display: none;
-}
-  
-  /* pop up กล่องของ experience-1 */
-.experience-1:hover {
+/*  Experiences - hover 1 effects */
+.experience-1:hover,
+.experience-2:hover,
+.experience-3:hover {
     transform: scale(1.05);
     z-index: 11;
 }
-  
+
+.experiences-container:has(.experience-3:hover) .experience-1,
+.experiences-container:has(.experience-3:hover) .experience-2,
+.experiences-container:has(.experience-2:hover) .experience-1,
+.experiences-container:has(.experience-1:hover) .experience-2,
+.experiences-container:has(.experience-1:hover) .experience-3,
+.experiences-container:has(.experience-2:hover) .experience-3 {
+    opacity: 0.2;
+}
+
 .experience-1:hover .message-item,
-.experience-1:hover .description-box {
+.experience-2:hover .message-item,
+.experience-3:hover .message-item,
+.experience-1:hover .description-box,
+.experience-2:hover .description-box,
+.experience-3:hover .description-box {
     transform: translateY(-5px);
 }
 
