@@ -322,7 +322,7 @@ li{
 .experience-description{
     font-family: "Albert Sans", sans-serif;
     font-weight: 400;
-    font-size: 1.8vh;
+    font-size: 2vh;
     margin-top: 2%;
     color: #313131;
 }
@@ -431,6 +431,10 @@ a:hover{
 
 /* Award section */
 
+.award {
+    padding-bottom: 5%;
+}
+
 .award .title-texts{
     font-family: "Libre Caslon Text", serif;
     font-weight: lighter;
@@ -442,7 +446,7 @@ a:hover{
 
 .award .subtitle-texts{
     font-family: "Libre Caslon Text", serif;
-    font-weight: lighter;
+    font-weight: 500;
     font-style: normal;
     font-size: 2.5vh;
     color: black;
@@ -540,6 +544,37 @@ a:hover{
     margin-bottom: 2rem;
 }
 
+.award-description{
+    font-family: "Albert Sans", sans-serif;
+    font-style: normal;
+    text-align: center; 
+    margin: 0% 20% 2%;
+    font-size: 2.3vh;
+}
+
+.button-container{
+    display: flex;
+    justify-self: center;
+}
+
+.read-detail-btn {
+    display: inline-block;
+    background-color: white;
+    width: 243px;
+    height: 48px;
+    border: 1px solid black;
+    border-radius: 30px;
+    font-family: "Albert Sans", sans-serif;
+    font-style: normal;
+    font-size: 2vh;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button-container:hover {
+    transform: scale(1.05);
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
 
 @media (max-width: 768px) {
     .welcome-text1 {
