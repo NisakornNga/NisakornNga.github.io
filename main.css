@@ -588,13 +588,15 @@ a:hover{
 
 
 /*Programming project section*/
-
+.project-1{
+    margin-bottom: 3%;
+}
 
 .programing-projects hr{
     width: 1175px;
 }
 
-.programing-projects .project-header{
+.project-1 .project-header{
     display: flex;
     justify-content: start;
     align-items: center;
@@ -603,43 +605,44 @@ a:hover{
     margin: 2% 10% ;
 }
 
-.programing-projects .title-texts{
+.project-1 .title-texts{
     font-family: "Libre Baskerville";
     font-size: 6vh;
     color: #3172FF;
     width: 50%;
 }
 
-.programing-projects .title-texts .message-item{
+.project-1  .message-item{
     left: 300px;
-    width: 330px;
+    max-width: 300px;
     height: auto;
-    padding: 2% 2%;
+    padding: 3% 1%;
     border-radius: 30px;
 }
 
-.programing-projects .title-texts .message-item span{
+.project-1 .title-texts .message-item span{
     font-family: "Albert Sans", sans-serif;
     font-style: normal;
-    font-size: 2.2vh;
+    font-size: 2.5vh;
 }
 
-.programing-projects .title-texts span{
+.project-1 .title-texts span{
     margin: 0%;
 }
 
-.programing-projects .title-texts p{
+.project-1 .title-texts p{
     display: inline;
     font-family: "Italianno", serif;
     font-weight: 400;
     font-style: normal;
+    transition: all 0.3s ease;
 }
 
-.tag-containers{
+.project-1 .tag-containers{
     width: 50%;
 }
 
-.tag-containers .tag{
+.project-1 .tag-containers .tag{
     display: inline-block;
     background-color: white;
     border: 1px solid black;
@@ -649,46 +652,49 @@ a:hover{
     margin: 2%;
 }
 
-.project-contents{
+.project-1 .project-contents{
     display: flex;
     justify-content: center;
-    margin: 0% 5%;
+    margin: 0% 6%;
 }
 
-.project-contents img{
+.project-1 .project-contents img{
+    position: relative;
     width: 40%;
     height: auto;
-    margin: 0% 2%;
+    margin: 0% 5% 0% 0% ;
 }
 
-.project-description{
+.project-1 .project-description{
     background-color: #F5F5F5;
     width: 40%;
     height: auto;
     border-radius: 20px;
     padding: 1.5% 2%;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 }
 
-.project-description h3{
+.project-1 .project-description h3{
     font-family: "Albert Sans", sans-serif;
     font-weight: 700;
     font-size: 3vh;
     padding-bottom: 2%;
 }
 
-.project-description p{
+.project-1 .project-description p{
     font-weight: 400;
     font-size: 2.2vh;
+    line-height: 1.4;
     padding-bottom: 2%;
 }
 
-.key-features h3{
+.project-1 .key-features h3{
     font-family: "Albert Sans", sans-serif;
     font-weight: 700;
     font-size: 3vh;
 }
 
-.key-features li{
+.project-1 .key-features li{
     font-family: "Albert Sans", sans-serif;
     font-weight: 300;
     font-style: italic;
@@ -696,7 +702,101 @@ a:hover{
 }
 
 
+/*Programming Project 2*/
+.project-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+.project-2 .project-container {
+   width: 50%;
+   margin:  0% 5% 0% 10%;
+}
+.project-2 .message-item{
+    max-width: 300px;
+    height: auto;
+    padding: 3% 2%;
+    border-radius: 30px;
+}
 
+.project-2 .message-item span{
+    font-family: "Albert Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5vh;
+}
+
+.project-2 .tag-container {
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.project-2 .tag {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 30px;
+    font-size: 2.2vh;
+    padding: 2% 3%;
+}
+
+.project-2 .project-content {
+    margin-top: 2%;
+}
+
+.project-2 .project-content h3 {
+    font-family: "Albert Sans", sans-serif;
+    font-weight: 700;
+    font-size: 3vh;
+    padding: 2% 0% 2% 0%;
+}
+
+.project-2 .project-content p {
+    font-weight: 400;
+    font-size: 2.2vh;
+    line-height: 1.4;
+    padding-bottom: 3%;
+}
+
+.project-2 .project-images {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.project-2 .project-images {
+    position: relative;
+    width: 50%;
+    display: flex;
+    flex-direction: column; 
+    margin-right: 10%;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 3%;
+}
+
+.project-2 .project-images img {
+    width: 100%;
+}
+
+.project-2 .project-images .search-icon {
+    position: absolute;
+    top: -10%;
+    left: 40%;
+    font-size: 2rem;
+    color: rgb(68, 68, 68);
+    background-color: white;
+    border: 1px solid #313131;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;             
+    align-items: center;
+    justify-content: center;
+}
 
 
 
