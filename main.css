@@ -845,7 +845,7 @@ a:hover{
 }
 
 .project-3 .tag-containers{
-    width: 50%;
+    width: 70%;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
@@ -857,7 +857,7 @@ a:hover{
     border: 1px solid black;
     border-radius: 30px;
     font-size: 2.2vh;
-    padding: 2% 5%;
+    padding: 1.5% 5%;
 }
 
 .project-3 .project-content{
@@ -870,6 +870,77 @@ a:hover{
     line-height: 1.4;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
 }
+
+/*Programming Project 4*/
+
+.project-4{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin:  5% 5% 0% 7%;
+}
+
+.project-4 .project-images{
+    min-width: 250px;
+    box-sizing: border-box;
+}
+
+.project-container{
+    width: 65%;
+}
+
+.project-4 .message-item{
+    max-width: 300px;
+    height: auto;
+    padding: 2% 1%;
+    border-radius: 30px 30px 5px 30px;
+    margin-bottom: 2%;
+}
+
+.project-4 .message-item span{
+    font-family: "Albert Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5vh;
+}
+
+.project-4 .tag-containers{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.project-4 .tag {
+    display: inline-block;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 30px;
+    font-size: 2.2vh;
+    padding: 2% 4%;
+}
+
+.project-4 .project-content{
+    width: 85%;
+    margin-top: 2%;
+}
+
+.project-4 .project-content h3 {
+    font-family: "Albert Sans", sans-serif;
+    font-weight: 700;
+    font-size: 3vh;
+    padding: 2% 0% 2% 0%;
+}
+
+.project-4 .project-content p{
+    font-weight: 400;
+    font-size: 2.2vh;
+    line-height: 1.4;
+    padding-bottom: 3%;
+}
+
 
 
 
@@ -885,4 +956,23 @@ a:hover{
     .year {
         font-size: 18px;
     }
+
+    .project-4 {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+      .project-4 .project-images,
+      .project-container {
+        width: 100%;
+      }
+    
+      .project-4 .project-images img {
+        width: 100%;
+        height: auto;
+      }
+    
+      .project-container {
+        margin-top: 1rem;
+      }
 }
