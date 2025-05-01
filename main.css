@@ -591,6 +591,17 @@ a:hover{
 
 
 /*Programming project section*/
+
+.programing-projects {
+    height: auto;
+    margin-bottom: 5%;
+}
+
+.programing-projects .message-item:hover{
+    text-decoration: underline;
+    color: white;
+}
+
 .project-1{
     margin-bottom: 3%;
 }
@@ -618,7 +629,8 @@ a:hover{
 .project-1 .message-item{
     position: relative;
     left: 30%;
-    top: 50px;
+    top: 30px;
+    width: 50%;
     max-width: 300px;
     height: auto;
     padding: 3% 1%;
@@ -723,6 +735,7 @@ a:hover{
 }
 .project-2 .message-item{
     margin-top: 5%;
+    width: 50%;
     max-width: 300px;
     height: auto;
     padding: 3% 2%;
@@ -819,9 +832,9 @@ a:hover{
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    gap: 3rem; 
+    gap: 5rem; 
     margin:  0% 5% 0% 10%;
-    flex-wrap: wrap; /* for small media */
+   
 }
 
 .project-3 .message-item{
@@ -876,7 +889,6 @@ a:hover{
 .project-4{
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
     justify-content: start;
     margin:  5% 5% 0% 7%;
 }
@@ -886,11 +898,18 @@ a:hover{
     box-sizing: border-box;
 }
 
+.project-4 .project-images img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 .project-container{
     width: 65%;
 }
 
 .project-4 .message-item{
+    width: 40%;
     max-width: 300px;
     height: auto;
     padding: 2% 1%;
@@ -923,7 +942,8 @@ a:hover{
 }
 
 .project-4 .project-content{
-    width: 85%;
+    width: 80%;
+    height: auto;
     margin-top: 2%;
 }
 
@@ -941,6 +961,36 @@ a:hover{
     padding-bottom: 3%;
 }
 
+/*explore-more-wrapper*/
+
+.explore-more-wrapper{
+    opacity: 0;
+    position: absolute;
+    pointer-events: none;
+    z-index: 999;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.explore-more-wrapper .explore-text{
+    position: absolute;
+    top: -10vh;
+    left: 18vw;
+    pointer-events: none;
+    max-width: 150px;
+}
+
+.explore-more-wrapper .explore-arrow{
+    position: absolute;
+    top: -8vh;
+    left: 18vw;
+    pointer-events: none;
+    max-width: 90px;
+}
+
+.programing-projects .message-item:hover .explore-more-wrapper {
+    opacity: 1;
+    visibility: visible;
+}
 
 
 
@@ -957,22 +1007,5 @@ a:hover{
         font-size: 18px;
     }
 
-    .project-4 {
-        flex-direction: column;
-        align-items: center;
-    }
     
-      .project-4 .project-images,
-      .project-container {
-        width: 100%;
-      }
-    
-      .project-4 .project-images img {
-        width: 100%;
-        height: auto;
-      }
-    
-      .project-container {
-        margin-top: 1rem;
-      }
 }
