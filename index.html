@@ -434,6 +434,108 @@
                 </div>
             </div> <!--end programing project-->
 
+            <!--Multimedia-->
+            <div class="multimedia-projects"  id="page-7">
+                <hr>
+                <div class="title-texts">
+                   
+                    <span style="font-family: 'Italianno', serif; font-style: italic; font-weight: lighter; font-size: 15vh; padding-right: 0%;">M</span>ultimedia
+                    <p>Projects</p>
+                </div>
+
+                <!--MM Project 1-->
+
+                <div class="mm-project-1">
+                    <div class="project-container">
+                         <!--sidebar-->
+                        <aside class="sidebar">
+                            <h3>My folders</h3>
+                            <ul class="folder-list">
+                                <li class="folder active" onclick="showContent('gdd')">
+                                    <i class="fas fa-folder"></i>
+                                    Game Design Document (GDD)
+                                </li>
+                                <li class="folder" onclick="showContent('illustration')">
+                                    <i class="fas fa-folder"></i>
+                                    Illustration of game elements
+                                </li>
+                                <li class="folder" onclick="showContent('video')">
+                                    <i class="fas fa-folder"></i>
+                                    Video gameplay
+                                </li>
+                            </ul>
+                        </aside>
+
+                         <!--contents-->
+                        <main class="content">
+                            <div class="projecy-1-tag">
+                                <h1>The Tales of Annie</h1>
+                            </div>
+                           
+                              <!--GDD-->
+                            <div id="gdd" class="content-section active">
+                                <div class="gdd-details">
+                                    <h2 class="gdd-topics">Executive summary</h2>
+                                    <div class="excutive-summary-details">
+                                        <p>My roles:</p>
+                                        <ul>
+                                            <li>Project Manager</li>
+                                            <li>Game designer</li>
+                                            <li>Game developer</li>
+                                            <li>Document writer</li>
+                                        </ul>
+                                        <p>Team members:</p>
+                                        <ul>
+                                            <li>Miss Chanikarn Jongyingyos</li>
+                                            <li>Mr.  Bhubodin  Somwhang</li>
+                                            <li>Miss Busayawadee 	Suphap</li>
+                                            <li>Miss Nisakorn		Ngaosri</li>
+                                        </ul>
+                                    </div>
+
+                                    <h2 class="gdd-topics">Concept</h2>
+                                    <div class="concept-details">
+                                    </div>
+
+                                    <h2 class="gdd-topics">Gameplay</h2>
+                                    <div class="gameplay">
+                                    </div>
+
+                                    <h2 class="gdd-topics">Level design</h2>
+                                    <div class="level-design">
+                                    </div>
+
+                                    <h2 class="gdd-topics">Software</h2>
+                                    <div class="software">
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div id="illustration" class="content-section">
+                              <h1>Illustration</h1>
+                              <p>[ข้อมูล illustration ที่คุณต้องการใส่]</p>
+                            </div>
+                        
+                            <div id="video" class="content-section">
+                              <h1>Video</h1>
+                              <p>[ลิงก์หรือคำอธิบายวิดีโอ]</p>
+                            </div>
+                          </main>
+                        </div>
+                        
+                        <script> // function show difference contents 
+                          function showContent(sectionId) {
+                            document.querySelectorAll('.content-section').forEach(sec => sec.classList.remove('active'));
+                            document.querySelectorAll('.folder').forEach(f => f.classList.remove('active'));
+                            document.getElementById(sectionId).classList.add('active');
+                            event.target.classList.add('active');
+                          }
+                        </script>
+                    </div>
+                </div>
+            </div>
+
+
             <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
             <script>
                 AOS.init({

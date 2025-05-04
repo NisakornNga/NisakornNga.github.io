@@ -992,6 +992,126 @@ a:hover{
     visibility: visible;
 }
 
+/*Multimedia projects*/
+
+.multimedia-projects hr{
+    width: 80%;
+
+}
+
+.multimedia-projects .title-texts{
+    font-family: "Libre Baskerville";
+    font-size: 6vh;
+    color: #3172FF;
+    width: 50%;
+    margin: 2% 6%;
+}
+
+.multimedia-projects .title-texts span{
+    margin: 0%;
+}
+
+.multimedia-projects .title-texts p{
+    display: inline;
+    font-family: "Italianno", serif;
+    font-weight: 400;
+    font-style: normal;
+    transition: all 0.3s ease;
+}
+
+.mm-project-1 .project-container {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0% 6%;
+    border-color: #838383;
+}
+
+/*Multimedia projects -sidebar*/
+
+.mm-project-1 .sidebar {
+    width: 15%;
+    background-color: #e5eaf0;
+    padding: 20px;
+    padding-top: 4%;
+}
+
+.sidebar h3 {
+    margin-top: 3vh;
+    font-size: 2.5vh;
+    margin-bottom: 3vh;
+    padding-left: 6%;
+}
+
+.sidebar ul{
+    width: 100%;
+}
+
+.sidebar li{
+    font-size: 2.2vh;
+}
+  
+.folder-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.folder {
+    cursor: pointer;
+    padding: 8px 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+  
+.folder:hover,
+.folder.active {
+  background-color: #cfd8e3;
+}
+  
+.folder i {
+    margin-right: 10px;
+    color: #3172FF;
+}
+
+/*Multimedia projects - content*/
+.mm-project-1 .content{
+    width: 70%;
+}
+
+.mm-project-1 .gdd-details{
+
+}
+  
+.mm-project-1 .content-section {
+    display: none;
+}
+
+.mm-project-1 .content-section.active {
+    display: block;
+}
+
+.mm-project-1 .projecy-1-tag{
+    background-color: #F5F5F5;
+    width: 95%;
+    padding: 2%;
+    
+}
+
+.mm-project-1 .content h1{
+    font-family: "Libre Caslon Text", serif;
+    font-style: normal;
+    font-size: 3vh;
+}
+
+
+
+
+
+  
+
+
 
 
 @media (max-width: 768px) {
