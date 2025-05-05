@@ -1094,15 +1094,90 @@ a:hover{
 
 .mm-project-1 .projecy-1-tag{
     background-color: #F5F5F5;
-    width: 95%;
-    padding: 2%;
-    
+    border-right: 1px solid #ccc; 
+    width: 100%;
+    height: 5%;
 }
 
-.mm-project-1 .content h1{
+.projecy-1-tag h1{
     font-family: "Libre Caslon Text", serif;
     font-style: normal;
     font-size: 3vh;
+    width: 50%;
+    padding: 15px;
+}
+
+.mm-project-1 .gdd-details{
+    padding: 3%;
+}
+
+.mm-project-1 .gdd-topics{
+    color: #007aff;
+    font-size: 3vh;
+}
+
+.excutive-summary-details{
+    margin-bottom: 2%;
+}
+
+.excutive-summary-details p{
+    font-family: "Albert Sans", sans-serif;
+    font-size: 2.5vh;
+    padding-top: 1%;
+}
+
+.excutive-summary-details li{
+    font-size: 2.2vh;
+    line-height: 1.4;
+}
+
+.gdd-details{
+    background-color: white;
+    border-right: 2px solid #ccc; /* ขอบด้านขวา */
+    border-bottom: 2px solid #ccc; /* ขอบด้านล่าง */
+    padding: 20px;
+    border-radius: 0 0 10px 0; /* โค้งเฉพาะมุมล่างขวาเล็กน้อย (ถ้าต้องการ) */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /* เพิ่มเงาเบาๆ ให้ดูนูน */
+}
+
+.gdd-details p{
+    font-family: "Albert Sans", sans-serif;
+    font-size: 2.2vh;
+    line-height: 1.4;
+    padding: 1% 0%;
+}
+
+.level-design li{
+    font-family: "Albert Sans", sans-serif;
+    font-size: 2.2vh;
+    line-height: 1.4;
+}
+.software {
+    display: flex;
+    gap: 2%;
+    margin: 1% 2%;
+}
+
+.software img {
+    width: 40px;
+    height: 40px;
+}
+
+.gdd-details button{
+   padding: 2% 2%;
+    margin-top: 2%;
+    border: none;  
+    border-radius: 15px;
+    font-size: 2vh;
+    color: gray;
+}
+
+.gdd-details button:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.gdd-details i{
+    padding-left: 5px;
 }
 
 
