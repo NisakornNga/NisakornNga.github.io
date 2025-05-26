@@ -278,7 +278,6 @@ li{
     margin-inline-start: 7%;
 }
 
-
 .experiences-container img{
     width: 395.62px;
     height: 488px;
@@ -431,7 +430,6 @@ a:hover{
     transition: max-height 0.4s ease-in-out;
 }
 
-
 /* Award section */
 
 .award {
@@ -537,7 +535,6 @@ a:hover{
     color: white;
     font-size: 25px;
 }
-
   
 .award-date {
     font-family: "Libre Baskerville", serif;
@@ -961,38 +958,12 @@ a:hover{
     padding-bottom: 3%;
 }
 
-/*explore-more-wrapper*/
-
-.explore-more-wrapper{
-    opacity: 0;
-    position: absolute;
-    pointer-events: none;
-    z-index: 999;
-    transition: opacity 0.3s ease-in-out;
-}
-
-.explore-more-wrapper .explore-text{
-    position: absolute;
-    top: -10vh;
-    left: 18vw;
-    pointer-events: none;
-    max-width: 150px;
-}
-
-.explore-more-wrapper .explore-arrow{
-    position: absolute;
-    top: -8vh;
-    left: 18vw;
-    pointer-events: none;
-    max-width: 90px;
-}
-
-.programing-projects .message-item:hover .explore-more-wrapper {
-    opacity: 1;
-    visibility: visible;
-}
 
 /*Multimedia projects*/
+
+.multimedia-projects{
+    padding-bottom: 5%;
+}
 
 .multimedia-projects hr{
     width: 80%;
@@ -1213,13 +1184,114 @@ a:hover{
     border-radius: 8px;
 }
 
+/*Multimedia projects - 2*/
 
+.mm-project-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 5%;
+    max-width: 1400px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
 
+.mm-project-2 .project-container {
+   flex: 1;
+   min-width: 40%;
+}
 
+.mm-project-2 .video-container {
+    flex: 1;
+    min-width: 50%;
+    margin-top: 5%;
+}
+
+.mm-project-2 .message-item{
+    margin-top: 5%;
+    width: 40%;
+    max-width: 300px;
+    height: auto;
+    padding: 3% 2%;
+    border-radius: 30px 30px 30px 5px;
+}
+
+.mm-project-2 .message-item span{
+    font-family: "Albert Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5vh;
+}
+
+.mm-project-2 .tag-container{
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.mm-project-2 .tag {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 30px;
+    font-size: 2.2vh;
+    padding: 2% 5%;
+}
+
+.mm-project-2 .project-content {
+    margin-top: 5%;
+}
+
+.mm-project-2 .project-content h3 {
+    font-family: "Albert Sans", sans-serif;
+    font-weight: 700;
+    font-size: 2.5vh;
+    margin-bottom: 2%;
+}
+
+.mm-project-2 .project-content p {
+    font-family: "Albert Sans", sans-serif;
+    font-weight: 400;
+    font-size: 2.2vh;
+    line-height: 1.4;
+    padding-bottom: 3%;
+}
   
 
 
 
+
+/*explore-more-wrapper*/
+
+.explore-more-wrapper{
+    opacity: 0;
+    position: absolute;
+    pointer-events: none;
+    z-index: 999;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.explore-more-wrapper .explore-text{
+    position: absolute;
+    top: -10vh;
+    left: 18vw;
+    pointer-events: none;
+    max-width: 150px;
+}
+
+.explore-more-wrapper .explore-arrow{
+    position: absolute;
+    top: -8vh;
+    left: 18vw;
+    pointer-events: none;
+    max-width: 90px;
+}
+
+.message-item:hover .explore-more-wrapper {
+    opacity: 1;
+    visibility: visible;
+}
 
 @media (max-width: 768px) {
     .welcome-text1 {
