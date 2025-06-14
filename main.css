@@ -1192,7 +1192,7 @@ a:hover{
     justify-content: space-between;
     align-items: flex-start;
     gap: 5%;
-    max-width: 1400px;
+    padding-inline: 8%;
     margin: 0 auto;
     flex-wrap: wrap;
 }
