@@ -1197,6 +1197,7 @@ a:hover{
     padding-inline: 8%;
     margin: 0 auto;
     flex-wrap: wrap;
+    margin-bottom: 5rem;
 }
 
 .mm-project-2 .project-container {
@@ -1261,9 +1262,6 @@ a:hover{
 }
   
 
-
-
-
 /*explore-more-wrapper*/
 
 .explore-more-wrapper{
@@ -1295,7 +1293,85 @@ a:hover{
     visibility: visible;
 }
 
+/*Footer*/
+.footer {
+    overflow-x: hidden;
+    background-color: #000;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2%;
+    padding: 2% 8%;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 2rem;
+}
+
+.contact-title h3 {
+  font-weight: bold;
+  font-family: 'Albert Sans', sans-serif;
+  margin: 0;
+  white-space: nowrap;
+  padding-top: 0.5rem;
+}
+
+.contact-info p {
+  margin: 8px 0;
+  font-size: 1rem;
+  font-family: 'Albert Sans', sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.contact-info i {
+  margin-right: 1rem;
+  color: #ccc;
+}
+
+.contact-info a {
+  color: white;
+  text-decoration: none;
+  transition: transform 0.2s ease, color 0.2s ease;
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+.contact-info a:hover {
+  transform: translateY(-2px);
+  color: #3366ff;
+}
+
+.thank-you {
+  font-family: 'Give You Glory', cursive;
+  font-weight: 200;
+  color: #3366ff;
+  font-size: 8vh;
+  margin: 0;
+}
+
+.version {
+  color: #ccc;
+  font-family: 'Albert Sans', sans-serif;
+}
+
+
 @media (max-width: 768px) {
+    
     .welcome-text1 {
         font-size: 36px;
     }
@@ -1306,6 +1382,19 @@ a:hover{
 
     .year {
         font-size: 18px;
+    }
+
+     .footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-inline: 8%;
+        gap: 2%;
+        padding-bottom: 3rem;
+    }
+
+    .footer-contact {
+        margin-top: 2rem;
+        text-align: left;
     }
 
     
