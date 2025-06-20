@@ -166,7 +166,13 @@ nav {
 /*Skills section*/
 .skills {
     background-color: white;
-    padding: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .skills .title-texts{
@@ -174,15 +180,18 @@ nav {
     font-weight: lighter;
     font-style: normal;
     color: #3172FF;
-    margin: 2% 0;
+    margin: 1rem 0;
     text-align: center;
+    font-size: 3.5rem;
 }
 
 .skills-container {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 0%;
-    gap: 5%;
+    margin-left: 0;
+    margin-right: 0;
+    gap: 1.5rem;
+    justify-content: center;
 }
 
 .skills-container .category{
@@ -193,25 +202,25 @@ nav {
     font-family: "Italianno", serif;
     font-style: italic;
     font-weight: lighter;
-    font-size: 6vh;
+    font-size: 2.5rem;
     text-align: center;
 }
 
 .category-section{
-    padding: 2% 10% ;
+    padding: 1rem 2rem;
 }
 
 .category-subsection{
-    margin-left: 8%;
+    margin-left: 1.5rem;
     font-family: "Albert Sans", sans-serif;
-    font-size: 3vh;
+    font-size: 1.25rem;
 }
 
 li{
     font-family: "Albert Sans", sans-serif;
     font-weight: 400;
-    font-size: 2.5vh;
-    margin-left: 5%;
+    font-size: 1rem;
+    margin-left: 1rem;
 }
 
 
