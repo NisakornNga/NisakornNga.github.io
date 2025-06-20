@@ -15,7 +15,7 @@ html, body {
 .welcome {
     position: relative;
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     overflow: hidden;
 }
 
@@ -36,54 +36,6 @@ html, body {
     transform: translateY(-50%);
     align-items: center;
     justify-content: center;
-}
-
-.welcome-content{
-    position: absolute;
-    margin-top:15%;
-    width: 100%;
-    text-align: center;
-}
-
-.topbar h3 {
-    font-family: "Libre Caslon Text", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 2vh;
-    padding-top: 2%;
-    text-align: center;
-}
-
-.welcome-text1 {
-    font-family: "Libre Caslon Text", serif;
-    font-weight: 400;
-    font-size: 9vh;
-    width: 100%;
-    text-align: center;
-}
-
-.welcome-text2 {
-    font-size: 13vh;
-    font-family: "Italianno", serif;
-    font-weight: 400;
-    font-style: normal;
-    margin-top: -2%;
-    margin-left: 2%;
-}
-
-.welcome-text2-row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /*gap: 2%;  Adjust spacing between text */
-}
-
-.year {
-    font-size: 5vh;
-    font-weight: lighter;
-    font-family: "Italianno", serif;
-    padding-bottom: 5%;
-    margin-left: 2%;
 }
 
 /*Nav section*/
@@ -122,7 +74,7 @@ nav {
   text-decoration: none;
   color: black;
   font-family: "Libre Caslon Text", serif;
-  font-size: 2vh;
+  font-size: 1rem; 
   font-weight: lighter;
   font-style: italic;
 }
@@ -142,7 +94,10 @@ nav {
 }
 
 .aboutme-image-profile{
-    width: 50%;
+    display: flex;
+    align-items: center;
+    width: 35%;
+    height: auto;
     margin-left: 3%;
 }
 
@@ -164,23 +119,22 @@ nav {
     font-family: "Italianno", serif;
     font-style: italic;
     font-weight: lighter;
-    font-size: 8vh;
+    font-size: 3rem;
 }
 
 .subtitle-texts{
     color: #3172FF;
     font-family: "Libre Caslon Text", serif;
-    font-size: 5vh;
+    font-size: 2rem;
     font-weight: lighter;
-    padding: 2% 0;
-    
+    padding: 1.5% 0;
 }
 
 .aboutme-description .description{
     font-family: "Libre Baskerville", serif;
     font-weight: lighter;
-    font-size: 2vh;
-    margin: 2% 0;
+    font-size: 1rem;
+    margin: 1.5% 0;
 }
 
 /*AboutMe section- education*/
@@ -189,20 +143,20 @@ nav {
 }
 
 .aboutme-educational .subtitle-texts{
-    font-size: 4vh;
+   font-size: 2rem;
 }
 
 .educational-location{
     font-family: "Libre Baskerville", serif;
     font-weight: lighter;
-    font-size: 2.5vh;
+    font-size: 1rem;
 }
 
 .educational-detail{
     font-family: "Libre Baskerville", serif;
     font-weight: 50;
-    font-size: 2vh;
-    padding: 0.5% 0;
+    font-size: 0.875rem;
+    padding: 0.3% 0;
 }
 
 .aboutme-educational-school{
