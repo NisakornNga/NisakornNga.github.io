@@ -1027,13 +1027,13 @@ button:hover {
 }
 
 .project-4 .project-images img {
-    width: 100%;
+    width: 85%;
     height: auto;
     display: block;
 }
 
 .project-container{
-    width: 70%;
+    width: 80%;
 }
 
 .project-4 .message-item{
