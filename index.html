@@ -108,10 +108,15 @@
                             <p class="description">I am a recent graduate from Mahidol University, 
                                 majoring in Multimedia Systems under the Faculty of Information and Communication Technology (ICT). 
                             </p> 
-                            <p class="description">Over the past four years, I have gained hands-on experience in<b style="color:  lightskyblue;"> web/app development, UX/UI design, and game creation.</b> 
-                               These experiences have helped me grow both technically and creatively. 
-                               I especially enjoy bringing ideas to life through interactive front-end development.
+                            <p class="description">Over the past four years, I have gained hands-on experience in
+                                <b style="color:  lightskyblue;"> web/app development, UX/UI design, and game creation.</b> 
+                              These projects allowed me to explore both technical and creative challenges, such as writing efficient code, 
+                              designing intuitive interfaces, and enhancing user engagement.
                             </p> 
+                            <p class="description">
+                              Through these experiences, I discovered my passion for becoming a <b style="color: lightskyblue;">full-stack designer</b>, someone who can effectively combine design thinking with development skills. 
+                            I enjoy building user interfaces that are not only visually appealing but also technically sound and responsive.
+                            </p>
                             <p class="description">I am now looking for opportunities such as internships or junior positions, where I can contribute to exciting projects, collaborate with others, and continue growing as a developer. :)</p>
                             <div class="aboutme-educational" data-aos="fade-up">
                                 <div class="aboutme-educational-university">
@@ -560,25 +565,23 @@
 
                 <!--MM Project 1-->
 
-                <div class="mm-project-1" data-aos="fade-up" data-aos-delay="200">
+                <div class="mm-project-1">
                     <div class="project-container">
                          <!--sidebar-->
-                        <aside class="sidebar" data-aos="fade-right" data-aos-delay="300">
+                        <aside class="sidebar" >
                             <h3>My folders</h3>
                             <ul class="folder-list">
-                                <li class="folder active" onclick="showContent('gdd')">
-                                    <i class="fas fa-folder"></i>
-                                    Game Design Document (GDD)
+                                <li class="folder active" onclick="showContent(event, 'gdd')">
+                                    <i class="fas fa-folder"></i> Game Design Document (GDD)
                                 </li>
-                                <li class="folder" onclick="showContent('video')">
-                                    <i class="fas fa-folder"></i>
-                                    Video gameplay
+                                <li class="folder" onclick="showContent(event, 'video')">
+                                    <i class="fas fa-folder"></i> Video gameplay
                                 </li>
                             </ul>
                         </aside>
 
                          <!--contents-->
-                        <main class="content" data-aos="fade-left" data-aos-delay="400">
+                        <main class="content">
                             <div class="projecy-1-tag">
                                 <h1>The Tales of Annie</h1>
                             </div>
@@ -586,8 +589,8 @@
                               <!--GDD-->
                             <div id="gdd" class="content-section active">
                                 <div class="gdd-details">
-                                    <h2 class="mm-project1-topics" data-aos="zoom-in" data-aos-delay="500">Executive summary</h2>
-                                    <div class="excutive-summary-details" data-aos="fade-up" data-aos-delay="550">
+                                    <h2 class="mm-project1-topics" >Executive summary</h2>
+                                    <div class="excutive-summary-details">
                                         <p>My roles:</p>
                                         <ul>
                                             <li>Project Manager</li>
@@ -604,23 +607,23 @@
                                         </ul>
                                         <p>Genre: RPG game | 2D puzzle game </p>
                                     </div>
-                                    <h2 class="mm-project1-topics" data-aos="zoom-in" data-aos-delay="600">Concept</h2>
-                                    <div class="concept-details" data-aos="fade-up" data-aos-delay="650">
+                                    <h2 class="mm-project1-topics">Concept</h2>
+                                    <div class="concept-details">
                                         <p>The Tales of Annie is a 2D horror game in which players takes on the role of "Annie Harper". 
                                         The game leads players to explore a house and solve puzzles with a storyline to immerse players 
                                         in uncovering the truth about her grandmother.</p>
                                     </div>
 
-                                    <h2 class="mm-project1-topics" data-aos="zoom-in" data-aos-delay="700">Story</h2>
-                                    <div class="story-details" data-aos="fade-up" data-aos-delay="750">
+                                    <h2 class="mm-project1-topics">Story</h2>
+                                    <div class="story-details">
                                         <p>Due to the busy work schedule of her mother, "Charlotte Harper", she decides to leave Annie under the care 
                                         of her grandmother in the countryside. However, Annie faces a mystical and weird experience since she arrives at the grandmother's house.
                                         This situation makes her to explore the truth by solving puzzles inside the house to find secrets hidden and Grandma's true side.
                                         </p>
                                     </div>
 
-                                    <h2 class="mm-project1-topics" data-aos="zoom-in" data-aos-delay="800">Gameplay - Level design</h2>
-                                    <div class="level-design" data-aos="fade-up" data-aos-delay="850"></div>
+                                    <h2 class="mm-project1-topics">Gameplay - Level design</h2>
+                                    <div class="level-design">
                                         <ul>
                                             <li>
                                                 Puzzle 1 (Living Room): The game begins in a cozy living room. Players must search carefully to find a hidden key, 
@@ -638,7 +641,7 @@
                                     </div>
 
                                     <h2 class="mm-project1-topics">Software</h2>
-                                    <div class="software" data-aos="zoom-in-up" data-aos-delay="950">
+                                    <div class="software">
                                         <img src="https://skillicons.dev/icons?i=unity"/>
                                         <img src="img/procreate-Icon.png"/>
                                         <img src="https://skillicons.dev/icons?i=vscode"/>
@@ -648,18 +651,18 @@
                                
                             </div>
                         
-                            <div id="video" class="content-section" data-aos="zoom-in" data-aos-delay="500">
+                            <div id="video" class="content-section">
                                 <h2 class="mm-project1-topics">Gameplay Video</h2>
-                                <p data-aos="fade-up" data-aos-delay="550">
+                                <p data-aos="fade-up">
                                     This video demonstrates the key mechanics and atmosphere of <strong>The Tales of Annie</strong>, 
                                     including puzzle-solving and horror elements that drive the narrative forward.
                                 </p>
-                                <div class="video-box" data-aos="fade-up" data-aos-delay="600">
+                                <div class="video-box">
                                     <div class="video-header">
                                         <i class="fa-solid fa-file-video"></i>
                                       <span class="video-title"><em>The Tales of Annie video</em></span>
                                     </div>
-                                    <div class="video-frame" data-aos="zoom-in-up" data-aos-delay="700">
+                                    <div class="video-frame">
                                       <iframe src="https://drive.google.com/file/d/1UMHObq8jViAbt38B2ClGhDOpf_oSHD90/preview" 
                                               allow="autoplay" allowfullscreen>
                                       </iframe>
@@ -668,15 +671,22 @@
                             </div>
                           </main>
                     </div>
-                        
-                        <script> // function show difference contents 
-                          function showContent(sectionId) {
-                            document.querySelectorAll('.content-section').forEach(sec => sec.classList.remove('active'));
-                            document.querySelectorAll('.folder').forEach(f => f.classList.remove('active'));
-                            document.getElementById(sectionId).classList.add('active');
-                            event.target.classList.add('active');
-                          }
-                        </script>
+
+                        <script>
+                            function showContent(event, sectionId) {
+                                document.querySelectorAll('.content-section').forEach(section => {
+                                section.classList.remove('active');
+                                });
+
+                                document.querySelectorAll('.folder').forEach(folder => {
+                                folder.classList.remove('active');
+                                });
+
+                                document.getElementById(sectionId).classList.add('active');
+
+                                event.currentTarget.classList.add('active');
+                            }
+                            </script>
                     </div>
                 </div><!--End MM project 1-->
 
