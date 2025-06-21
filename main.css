@@ -699,6 +699,11 @@ a:hover{
     transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
+.award .note{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
 button:hover {
     background-color: white; 
     transform: scale(1.05); 
@@ -1397,7 +1402,7 @@ button:hover {
 .explore-more-wrapper .explore-text{
     position: absolute;
     top: -10vh;
-    left: 18vw;
+    left: 30vh;
     pointer-events: none;
     max-width: 150px;
 }
@@ -1405,7 +1410,7 @@ button:hover {
 .explore-more-wrapper .explore-arrow{
     position: absolute;
     top: -8vh;
-    left: 18vw;
+    left: 35vh;
     pointer-events: none;
     max-width: 90px;
 }
